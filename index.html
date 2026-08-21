@@ -1954,39 +1954,37 @@ const VIDEO_SOURCES = [
   "https://kjaerby.github.io/videos/1.mp4",  // Ramme 1 — Øjeblikke
   "https://kjaerby.github.io/videos/2.mp4",  // Ramme 2 — Nærvær
   "https://kjaerby.github.io/videos/3.mp4",  // Ramme 3 — Gnisten
-  "",  // Ramme 4 — Charme
-  "",  // Ramme 5 — Livsglæde
-  "",  // Ramme 6 — Talentet
-  "",  // Ramme 7 — Det Særlige
-  "",  // Ramme 8 — Uforglemmelig
+  "https://kjaerby.github.io/videos/4.mp4",  // Ramme 4 — Charme
+  "https://kjaerby.github.io/videos/5.mp4",  // Ramme 5 — Livsglæde
+  "https://kjaerby.github.io/videos/6.mp4",  // Ramme 6 — Talentet
+  "https://kjaerby.github.io/videos/7.mp4",  // Ramme 7 — Det Særlige
+  "https://kjaerby.github.io/videos/8.mp4",  // Ramme 8 — Uforglemmelig
 ];
 
-// Each frame now stands on its own post/trellis panel out in the garden,
-// arranged along the path around the pond. "pos" is [x,z], "rotY" is the
-// facing direction (radians) so the screen faces back toward the path.
+
 const FRAMES = [
-  { pos:[-9.5,-6],  rotY: Math.PI*0.32, title:"Øjeblikke",     caption:"Et glimt fanget i bevægelse." },
+  { pos:[-9.5,-6],  rotY: Math.PI*0.32, title:"Øjeblikkene med Dig",     caption:"Ethvert øjeblik med dig, føles som en gave." },
   { pos:[-12,  1],  rotY: Math.PI*0.62, title:"Nærvær",        caption:"Der er noget ægte i hvert billede." },
-  { pos:[-9.5, 8],  rotY: Math.PI*0.92, title:"Gnisten",       caption:"Den der sjældne, uforlignelige energi." },
-  { pos:[ 9.5,-6],  rotY:-Math.PI*0.32, title:"Charme",        caption:"Umulig at kigge væk fra." },
-  { pos:[ 12,  1],  rotY:-Math.PI*0.62, title:"Livsglæde",     caption:"Smittende, hver eneste gang." },
-  { pos:[ 9.5, 8],  rotY:-Math.PI*0.92, title:"Talentet",      caption:"Bygget ind, ikke øvet frem." },
+  { pos:[-9.5, 8],  rotY: Math.PI*0.92, title:"Din Energi",       caption:"Den der sjældne, ubeskrivelige energi." },
+  { pos:[ 9.5,-6],  rotY:-Math.PI*0.32, title:"Dine Øjne",        caption:"Umulige at kigge væk fra." },
+  { pos:[ 12,  1],  rotY:-Math.PI*0.62, title:"Dit Grin",     caption:"Smittende, hver eneste gang." },
+  { pos:[ 9.5, 8],  rotY:-Math.PI*0.92, title:"Du er Talentfuld",      caption:"Du er den bedste, til alt hvad du foretager dig." },
   { pos:[-3.2,-13], rotY: Math.PI*0.12, title:"Det Særlige",   caption:"Grunden til at dette rum findes." },
-  { pos:[ 3.2,-13],  rotY:-Math.PI*0.12, title:"Uforglemmelig", caption:"Ét klip er aldrig nok." },
+  { pos:[ 3.2,-13],  rotY:-Math.PI*0.12, title:"Dig. ", caption:"Ét klip er aldrig nok." },
 ];
 
 const TRIBUTE_LINES = [
-  "Der findes en sjælden gnist hos thmsnx, som få nogensinde opnår.",
-  "Hver eneste klip afslører endnu et lag af thmsnx' talent.",
-  "Ingen gør det som thmsnx — unik, modig og uforlignelig.",
+  "Der findes en sjælden gnist hos dig, som ikke findes hos andre.",
+  "Hver eneste moment med dig, er som at leve i et drømmeverden.",
+  "Ingen gør det som dig — unik, modig, fantastisk og magisk.",
 ];
 
 const WELCOME_TEXT = {
-  heading:"Velkommen til THMSNX-haven",
-  body:"Dette sted er indrettet til ét formål: at fejre thmsnx. Gå på opdagelse langs stierne, kryds broen, og dvæl ved det, der fanger dig."
+  heading:"Velkommen til et Helligt Sted",
+  body:"Du er det skønneste, som jorden har at byde på."
 };
 
-// The romantic centerpiece — edit this to whatever you want it to say.
+
 const ROMANTIC_TEXT = {
   heading:"Til dig",
   body:"Der findes ingen, der får mit hjerte til at slå som du gør. Dit smil er det smukkeste, jeg kender, og uanset hvor jeg er, vil jeg altid finde vej tilbage til dig."
